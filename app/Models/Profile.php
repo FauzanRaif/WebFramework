@@ -17,6 +17,7 @@ class Profile extends Model
 
     // Set the type of the primary key as UUID
     protected $primaryKey = 'id';
+
     // Disable auto-increment for UUID primary key
     public $incrementing = false;
     protected $keyType = 'string';
