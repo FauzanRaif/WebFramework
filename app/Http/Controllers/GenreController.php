@@ -18,6 +18,7 @@ class GenreController extends Controller
     return view('genre.index', compact('genres'));
 }
 
+
   /**
    * Store a newly created resource in storage.
    */

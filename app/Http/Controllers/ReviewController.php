@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 
 class ReviewController extends Controller
 {
-  
   /**
    * Tampilkan daftar ulasan.
    */

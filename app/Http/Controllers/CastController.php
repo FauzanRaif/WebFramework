@@ -10,7 +10,6 @@ use Illuminate\View\View;
 
 class CastController extends Controller
 {
-  
   /**
    * Display a listing of the Cast records.
    *
