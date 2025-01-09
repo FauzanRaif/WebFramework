@@ -40,6 +40,7 @@ class MovieController extends Controller
     return view('movie.edit', compact('movie', 'genres', 'casts'));
   }
 
+  
   /**
    * Update the specified resource in storage.
    */
