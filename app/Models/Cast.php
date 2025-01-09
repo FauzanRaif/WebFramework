@@ -12,6 +12,7 @@ class Cast extends Model
 
   // Define the table name (optional, if different from the plural form of the model name)
   public $incrementing = false;
+
   // Define the primary key (optional, if it's not the default 'id')
   protected $table = 'casts';
 

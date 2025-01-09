@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Movie extends Model
 {
   use HasFactory, HasUuids;
-
   /**
    * Indicates if the IDs are auto-incrementing.
    *
