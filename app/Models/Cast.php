@@ -30,6 +30,7 @@ class Cast extends Model
     'avatar',
   ];
 
+  // Optionally, you can define the dates if you want to cast timestamps to Carbon instances
   protected $dates = [
     'created_at',
     'updated_at',

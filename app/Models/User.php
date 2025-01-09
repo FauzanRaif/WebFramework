@@ -11,7 +11,6 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 // Import HasOne
-
 class User extends Authenticatable
 {
   use HasApiTokens, HasFactory, Notifiable, HasUuids;

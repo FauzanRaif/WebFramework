@@ -11,7 +11,6 @@ use Illuminate\Support\Str;
 class Profile extends Model
 {
     use HasFactory, HasUuids;
-
     // Define the table name
     protected $table = 'profiles';
 

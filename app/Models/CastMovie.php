@@ -13,7 +13,6 @@ class CastMovie extends Model
     // Tidak perlu mendefinisikan created_at dan updated_at jika Anda ingin mereka otomatis dikelola oleh Eloquent
     // Jika Anda menggunakan timestamps, pastikan property berikut tidak ada dalam model:
     // public $timestamps = false;  // Jangan gunakan ini jika Anda ingin Laravel mengelola timestamps
-
     protected $fillable = [
         'movie_id',
         'cast_id',
